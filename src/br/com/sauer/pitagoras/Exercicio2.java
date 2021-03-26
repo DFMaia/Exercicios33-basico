@@ -17,6 +17,7 @@ public class Exercicio2 {
         quilosConsumidos = sc.nextDouble();
 
         valorASerPago = valorDoQuilo * quilosConsumidos;
+
         System.out.println("O valor do quilo é: R$" + valorDoQuilo + "." +
                 "Você consumiu " + quilosConsumidos + " quilos.\n" +
                 "O valor a ser pago será de: " + valorASerPago);

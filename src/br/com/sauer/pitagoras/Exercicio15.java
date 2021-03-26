@@ -16,7 +16,12 @@ public class Exercicio15 {
             }
         }
 
-        System.out.println("O maior número do array é: " + maiorNumero);
+        System.out.println("Sequência de números do array: ");
+        for(int i = 0; i < numeros.length; i++){
+            System.out.print(numeros[i] + " ");
+        }
+
+        System.out.println("\n\nO maior número do array é: " + maiorNumero);
 
     }
 

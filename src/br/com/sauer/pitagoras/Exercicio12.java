@@ -9,7 +9,7 @@ public class Exercicio12 {
         int somatoria = 0;
 
         for(int i = 0; i < numeros.length; i++){
-            numeros[i] = (int) Math.round(Math.random() * 100);
+            numeros[i] = (int) Math.round(Math.random() * 713);
         }
 
         System.out.println("Sequência de números: ");

@@ -8,7 +8,7 @@ public class Exercicio16 {
 
         int outrosNumeros [] = new int[1];
 
-        int menorNumero = 1000000000;
+        int menorNumero = 2147483647;
 
         int posicao = -1;
 
@@ -19,7 +19,7 @@ public class Exercicio16 {
             }
         }
 
-        System.out.println("O menor número é " + menorNumero + " na posição " + posicao);
+        System.out.println("O menor número (elemento) é " + menorNumero + " na posição (index) " + posicao);
 
     }
 

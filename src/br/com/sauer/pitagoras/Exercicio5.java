@@ -7,7 +7,7 @@ public class Exercicio5 {
         int numero = 8;
 
         if(numero %2 == 1){
-            System.out.println("Número " + numero + " é impar");
+            System.out.println("Número " + numero + " é ímpar");
         }else {
             System.out.println("Numero " + numero + " é par");
         }

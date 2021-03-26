@@ -15,6 +15,12 @@ public class Exercicio14 {
             tamanho --;
         }
 
+        System.out.println("Primeiro vetor com a ordem de entrada: ");
+        for(int i = 0; i < numeros.length; i++){
+            System.out.print(numeros[i] + " ");
+        }
+
+        System.out.println("\n\nSegundo vetor com a ordem de entrada inversa (cópia inversa): ");
         for(int i = 0; i < numerosDois.length; i ++){
             System.out.print(numerosDois[i] + " ");
         }

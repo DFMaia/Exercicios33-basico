@@ -16,9 +16,9 @@ public class Exercicio6 {
             if((lado1 == lado2) && (lado3 == lado1)){
                 System.out.println("Triângulo equilátero");
             } else if(((lado1 == lado2) && (lado3 != lado1)) || (lado1 != lado2) && (lado3 == lado1)) {
-                System.out.println("Triângulo isóceles");
+                System.out.println("Triângulo isósceles");
             } else {
-                System.out.println("Triânangulo escaleno");
+                System.out.println("Triângulo escaleno");
             }
         }
 
